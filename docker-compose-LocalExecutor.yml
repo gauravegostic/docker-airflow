@@ -17,7 +17,7 @@ services:
         depends_on:
             - postgres
         environment:
-            - LOAD_EX=n
+            - LOAD_EX=y
             - EXECUTOR=Local
         logging:
             options:
